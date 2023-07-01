@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 3rem;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 3rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    button {
+      font-size: 1.2rem;
+      padding: 0.8rem 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
